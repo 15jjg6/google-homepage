@@ -1,3 +1,7 @@
+body {
+	margin: 0px 0px 0px 0px; 
+}
+
 p, a {
 	font-family: arial, sans-serif;
 	font-size: 13px;
@@ -20,6 +24,11 @@ a:hover {
 	min-width: 500px
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+#header span {
+	padding-left: 15px;
+	padding-right: 15px; 
 }
 
 #header #left-header a {
@@ -79,6 +88,51 @@ input[type="submit"]:hover {
 
 
 .footer {
-       background-color: rgb(242, 242, 242);	
-       text-align: left;
+	background-color: rgb(242, 242, 242);	
+       	text-align: left;
+       	display: flex; 
+	flex-direction: column;
+       	margin-top: auto;
+       	position: fixed; 
+	padding: 0px 0px 0px 0px; 
+	bottom: 0; 
+	width: 100%; 
+	/* Height of the footer*/  
+	height: 81px; 
+	border-top-color: rgb(228,228,228);
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+.footer #country {
+	color: rgba(0, 0, 0, 0.54);
+	border-bottom-color: rgb(228,228,228);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding-left: 30px;
+}	
+
+.footer #subscripts {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+	text-align: center;
+	height: 40px;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+.footer .info {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+	text-align: center;
+	height: 40px;
+	vertical-align: middle;
+	margin: 13.5px 0px 13.5px 0px; 
+}
+.bottom-links {
+	color: #5F6368;
+	vertical-align: middle;
+	padding-left: 27px; 
 }
