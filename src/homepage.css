@@ -1,26 +1,84 @@
 p, a {
 	font-family: arial, sans-serif;
 	font-size: 13px;
+	text-decoration: none; 
 }
 
-#header {
-	padding: 10px;
-	background-color: LightGrey;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+a:hover {
+	text-decoration: underline;
 }
 
 #header a {
 	color: #000000;
 	padding-left: 15px;
-	text-decoration: none; 
 }
 
-#header a:hover {
-	text-decoration: underline;
+#header {
+	padding: 10px;
+	display: flex;
+	width: 100%;
+	min-width: 500px
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-#header #right-header {
-	color: rgba(0,0,0,0.87);
+#header #left-header a {
+	padding-left: 0px;
+	padding-right: 15px; 
+}
+
+#header #right-header a:hover {
+	color: rgba(0,0,0,0.80);
+}
+
+#center {
+	margin-top: 89px;
+	display: block; 
+	text-align: -webkit-center;
+	width: auto;
+}
+
+/* taken from stack overflow */
+input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#4d90fe;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    padding: 0 16px;
+    height:36px;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+/* end rip from stack overflow */
+
+
+
+.footer {
+       background-color: rgb(242, 242, 242);	
+       text-align: left;
 }
