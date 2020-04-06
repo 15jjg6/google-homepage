@@ -47,6 +47,37 @@ a:hover {
 	width: auto;
 }
 
+/* TODO: fix the app button svg to be a usable and visible button. */
+
+#apps-button {
+	display: inline-block;
+	outline: none; 
+	vertical-align: middle;
+	border-radius: 2px;
+	box-sizing: border-box; 
+	height: 30px; 
+	width: 30px;
+	background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+	-webkit-background-size: 528px 68px;
+	background-size: 528px 68px;
+	color: #000;
+}
+
+#apps-button { 
+	background-image: "image/grid_icon.svg";
+	background-position-y: 0px;
+	background-position-x: 0px;
+	color: #000000;
+	border: 2px; 
+	border-color: #000000;
+}
+
+
+
+
+
+
+
 /* taken from stack overflow */
 input{
     border: none;
@@ -87,6 +118,9 @@ input[type="submit"]:hover {
 
 
 
+
+
+
 .footer {
 	background-color: rgb(242, 242, 242);	
        	text-align: left;
@@ -110,6 +144,7 @@ input[type="submit"]:hover {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	padding-left: 30px;
+	font-size: 15px;
 }	
 
 .footer #subscripts {
@@ -120,6 +155,9 @@ input[type="submit"]:hover {
 	height: 40px;
 	vertical-align: middle;
 	margin-right: 30px;
+}
+
+#country-p-tag p {
 }
 
 .footer .info {
@@ -134,5 +172,16 @@ input[type="submit"]:hover {
 .bottom-links {
 	color: #5F6368;
 	vertical-align: middle;
-	padding-left: 27px; 
+	padding-left: 30px; 
+	font-size: 14px;
+}
+
+#search-button {
+  width: 100px;
+  height: 50px;
+}
+
+#search-button svg {
+  width: 25px;
+  height: 25px;
 }
