@@ -19,6 +19,7 @@ a:hover {
 
 #header {
 	padding: 10px;
+	padding-top: 22px;
 	display: flex;
 	width: 100%;
 	min-width: 500px
@@ -34,6 +35,7 @@ a:hover {
 #header #left-header a {
 	padding-left: 0px;
 	padding-right: 15px; 
+	color: rgba(0,0,0,0.70);
 }
 
 #header #right-header a:hover {
@@ -73,10 +75,9 @@ a:hover {
 }
 
 
-
-
-
-
+.microphone { 
+	max-width: 24px;
+}
 
 /* taken from stack overflow */
 input{
@@ -94,19 +95,23 @@ input:hover{
 input:focus{
     border-color:#4d90fe;
 }
-
+/* TODO: fix the spacing in google search and I'm Feeling Lucky buttons
+ *
+ * google search: 127px;
+ * I'm Feeling Lucky: 142px;
+ */
 input[type="submit"] {
-    border-radius: 2px;
+    border-radius: 4px;
     background: #f2f2f2;
     border: 1px solid #f2f2f2;
     color: #757575;
     cursor: default;
     font-size: 14px;
-    font-weight: bold;
-    width: 100px;
+    width: 142px;
     padding: 0 16px;
     height:36px;
 }
+
 input[type="submit"]:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     background: #f8f8f8;
@@ -115,7 +120,9 @@ input[type="submit"]:hover {
     color: #222;
 }
 /* end rip from stack overflow */
-
+input[type="submit"]:focus {
+    border-color:#4d90fe;
+}
 
 
 
