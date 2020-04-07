@@ -49,6 +49,7 @@ a:hover {
 	width: auto;
 }
 
+
 /* TODO: fix the app button svg to be a usable and visible button. */
 
 #apps-button {
@@ -74,9 +75,20 @@ a:hover {
 	border-color: #000000;
 }
 
-
-.microphone { 
-	max-width: 24px;
+.microphone-icon {
+  background: url('http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+  background-size: 21px 21px;
+  cursor: pointer;
+  margin-inline-end: 16px;
+  padding: 22px 12px 0;
+  /*bottom: 0;
+  position: absolute;*/
+  right: 0;
+  top: 0;
+  width: 21px;
+  display: flex; 
+  vertical-align: middle;
+  border-width: 0px;
 }
 
 /* taken from stack overflow */
